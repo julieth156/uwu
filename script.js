@@ -54,23 +54,23 @@
 })();
 */
 const messages = [
-    "Are you sure?",
-    "Really sure??",
-    "Are you positive?",
-    "Pookie please...",
-    "Just think about it!",
-    "If you say no, I will be really sad...",
-    "I will be very sad...",
-    "I will be very very very sad...",
-    "Ok fine, I will stop asking...",
-    "Just kidding, say yes please! ❤️"
+    "Estas seguro?",
+    "AAAA como asi que no quieres",
+    "Siguele dando no y ya veras",
+    "A con que mamoncito",
+    "Solo dale que siii vamoss",
+    "Voy a estar bien triste amorcito :c",
+    "Nonononoo usted le da si porque si ",
+    "joseph yo a usted lo amo dale que si",
+    "Esta bien sabe que ya no quiero",
+    "Solo dale que shi ❤️"
 ];
 
 let messageIndex = 0;
 
 function handleNoClick() {
     const noButton = document.querySelector('.no-button');
-    const yesButton = document.querySelector('.yes-button');
+    const yesButton = document.querySelector('.siii-button');
     noButton.textContent = messages[messageIndex];
     messageIndex = (messageIndex + 1) % messages.length;
     const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
